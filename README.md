@@ -1,8 +1,9 @@
-📝 Mini Board
+Mini Board
 
 Mini Board is a simple React-based dashboard app where you can add, edit, view, and delete users. It includes a sidebar for navigation, a responsive navbar with dark mode toggle, and modal-based forms for user management.
 
-🚀 Overview of Implementation
+
+Overview of Implementation
 
 Frontend Framework: React (with Vite for fast development).
 
@@ -26,7 +27,8 @@ State Management: React hooks (useState, useEffect) used to handle UI state and 
 
 Dark Mode: Toggle persists across the UI using Tailwind’s dark class strategy.
 
-⚙️ Setup Instructions
+
+Setup Instructions
 1. Clone the repository
 git clone https://github.com/Loveson1/miniboard.git
 cd miniboard
@@ -44,7 +46,8 @@ Your app will be available at http://localhost:5173/
 4. Build for production
 npm run build
 
-🛠️ Features
+
+Features
 
 Add new users with Name, Email, Age, Phone, Company, and City.
 
@@ -60,7 +63,8 @@ Responsive Sidebar + Navbar (works on desktop and mobile).
 
 Home page with a welcome message and Dashboard entry point.
 
-🔮 Potential Improvements
+
+Potential Improvements
 
 Persist Data: Currently, users reset on refresh. Connect to a backend (e.g., Node.js + MongoDB, Firebase, or Supabase) to store data.
 
@@ -73,5 +77,3 @@ Better UI/UX: Add animations, transitions, and refine modals for smoother experi
 Testing: Add unit and integration tests using Jest/React Testing Library.
 
 Deploy: Already works with Vercel — continuous deployment can be improved with GitHub Actions.
-
-✨ Built with love, patience, and a little help from an amigo 🤝
