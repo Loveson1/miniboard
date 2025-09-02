@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { Sun, Moon, Menu } from "lucide-react"; // icons
+import dp from "../assets/dp.png";
 
 export default function Navbar({ onMenuClick }) {
   const [darkMode, setDarkMode] = useState(false);
@@ -39,11 +40,12 @@ export default function Navbar({ onMenuClick }) {
 
         {/* Profile DP (placeholder) */}
         <img
-          src="./src/assets/dp.png"
+          src={dp}
           alt="profile"
           className="w-10 h-10 rounded-full border"
         />
       </div>
     </header>
   );
+
 }
