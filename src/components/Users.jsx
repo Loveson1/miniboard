@@ -134,7 +134,7 @@ export default function Users() {
   );
 
   return (
-    <section className="p-6  h-lvh ">
+    <section className="p-6  h-full ">
       <div className="flex justify-between items-center gap-1  mb-15">
         {/* Global Add User button */}
         <button
@@ -250,3 +250,4 @@ export default function Users() {
     </section>
   );
 }
+
